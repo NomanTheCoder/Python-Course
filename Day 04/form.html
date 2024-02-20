@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+            background-color: rgb(0, 0, 0);
+            width: 95%;
+            margin-left: 2%;
+            border-radius: 5px;
+            
+        }
+        li{
+            float: left;
+            align-content: center;}
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px 25px;
+            text-decoration: none;
+            padding-top: 30%;
+            margin-left: 60%;
+            
+            
+        }
+     </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aliceblue;">
+    <header>
+     <nav>
+         <ul>
+             <li><h1 style="color: white; margin-left: 25px;">Coding Lab</h1></li>
+             <li><a href="Home.html" target="_self">Home</a></li>
+             <li><a href="form.html" target="_self">Forms</a></li>
+             <li><a href="Tabels.html" style="margin-top: -1%;" target="_self">Tabels</a></li>
+             <li><a href="#About" style="margin-top: -1%;">About</a></li>
+             <li><input type="text" placeholder="..Search" name="Search" style="width: 200px; margin-left: 200%; margin-top: 9%;height: 25px"></li>
+             <button type="submit" style="width: 40px;height: 25px; margin-top: 1.9%;margin-left: 35%"> &#128269;</button>
+            
+         </ul>
+     </nav>
+    </header><br>
+    <form method="post" action="Home.html" style="border-color: black;">
+        <div style="margin-left: 40%;">
+            <label for="First_Name"><b>First Name</b></label>&nbsp;
+            <input type="text"  name="First_Name" id="First_Name">
+        </div>
+        <div style="margin-left: 40%; margin-top: 1%;">
+            <label for="Last_Name"><b>Last Name</b></label>&nbsp;&nbsp;
+            <input type="text"  name="Last_Name" id="Last_Name">
+        </div>
+        <div style="margin-left: 40%; margin-top: 1%;">
+            <label for="Password"><b>Password</b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="Password"  name="Password" id="Password">
+        </div>
+        <div style="margin-left: 40%; margin-top: 1%;">
+            <label for="Re-Password"><b>Re-Type</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="Re-Password"  name="Re-Password" id="Re-Password">
+        </div>
+        <div style="margin-left: 40%; margin-top: 1%;">
+            <label for="Select Your Gender"><b>Select Your Gender:</b></label>
+            </div>
+            <div style="margin-left: 40%; margin-top: 1%;">
+                <label for="Male"><b>Male</b></label>&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="gender" id="Male">
+            </div>
+            <div style="margin-left: 40%; margin-top: 1%;">
+                <label for="fe-Male"><b>FeMale</b></label>
+                <input type="radio" name="gender" id="fe-Male">
+            </div>
+            <div style="margin-left: 40%; margin-top: 1%;">
+                <label for="Neither"><b>Neither</b></label>
+                <input type="radio" name="gender" id="Neither">
+            </div>
+            <div style="margin-left: 40%; margin-top: 1%;">
+                <label for="Study Details"><b>Study Details</b></label><br>
+            <input type="checkbox" name="study1" id="study1"></label>&nbsp;&nbsp;
+            <label for="study1">Matric Completed Successfully</label><br>
+            <input type="checkbox" name="study2" id="study2"></label>&nbsp;&nbsp;
+            <label for="study2">HSSC Completed Successfully</label><br>
+            <input type="checkbox" name="study3" id="study3"></label>&nbsp;&nbsp;
+            <label for="study3">BSCS Completed Successfully</label><br>
+            </div>
+            <div style="margin-left: 40%; margin-top: 1%;">
+            <input type="range" name="P-check" id="P-check">
+            </div>
+            <div style="margin-left: 40%; margin-top: 1%;">
+            <input type="submit">
+            </div>
+            
+            
+            
+            
+    </form>
+</body>
+</html>

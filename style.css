@@ -1,0 +1,70 @@
+.container{
+    width: 600px;
+    height: 400px;
+    background-color:aquamarine ;
+    
+}
+.box{
+    width: 100px;
+    height: 70px;
+    background-color:whitesmoke;
+    margin-top: -50%;
+    margin-left: 185%;
+    text-align: center;
+    border: 1px solid green;
+    
+}
+.image{
+    width: 70px;
+    height:70px;
+    background-image: url(./Images/arrow.png);
+    background-size: cover;
+    margin-top: 23%;
+    margin-left: 191%;
+    transform: rotate(1200deg);
+    
+
+}
+.box1{
+    width: 200px;
+    height:140px;
+    background-image: url(./Images/boox.png);
+    
+    background-size: cover;
+    margin-top: -3%;
+    margin-left: 163%;
+    color: blue;
+    transform: rotate(-1deg);
+
+}
+.box2{
+
+    width: 80px;
+    height:40px;
+    background-image: url(./Images/squ.png);
+    border: 2px solid green;
+    border-radius: 12%;
+    margin-top: -21%;
+    margin-left: 147%;
+    
+
+}
+.circle{
+    width: 300px;
+    height:300px;
+    background-image: url(./Images/circle.png);
+    
+    background-size: cover;
+    margin-top: -55%;
+    margin-left: 130%;
+
+}
+
+.sm{
+    width: 30px;
+    height: 10px;
+    background-color: green;
+    border-radius: 20%;
+    margin-top: -13.5%;
+    margin-left: 191%;
+}

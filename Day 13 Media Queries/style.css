@@ -120,6 +120,9 @@
             background-size: cover;
             text-align: center; 
         }
+        body{
+          background-color: thistle;
+        }
     }
 
     @media screen and (min-width: 679px) and (max-width:750px) {
@@ -140,6 +143,9 @@
     100% {
       text-shadow: 0 0 20px #ff0000; /* Increased text shadow */
     }
+        }
+        body{
+          background-color:#8C7284;
         }
       }
 

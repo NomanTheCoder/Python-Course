@@ -1,0 +1,14 @@
+.h1{
+    font-family: 'Roboto';
+    font-weight: 1300;
+   
+}
+
+.container {
+  height: 400px;
+   width: 380px;
+     margin-top: -51%;
+      margin-left: 102%;
+      border: 2px solid white;
+}
+

@@ -1,0 +1,13 @@
+.container{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 0%, auto;
+    /* margin-left: 50%; */
+    margin: 30%;
+    background-image:  url(./Assest/Images/stars_trans.png), url(./Assest/Images/j1.jpg);    
+    /* background-position: center; */
+    background-size: cover, cover;
+    /* background-clip: padding-box; */
+    
+}
